@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboard">
+
+    <fragment
+        android:id="@+id/dashboard"
+        android:name="com.bangkit.pregai.ui.dashboard.DashboardFragment"
+        android:label="DashboardFragment"
+        app:route="@string/home_dashboard"
+        tools:layout="@layout/fragment_dashboard">
+        <action
+            android:id="@+id/action_dashboard_to_poseFragment"
+            app:destination="@id/poseFragment" />
+        <action
+            android:id="@+id/pose_detection_action"
+            app:destination="@id/post_detection" />
+        <action
+            android:id="@+id/action_dashboard_to_history"
+            app:destination="@id/history" />
+        <action
+            android:id="@+id/action_dashboard_to_my_routines"
+            app:destination="@id/my_routines" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/poseFragment"
+        android:name="com.bangkit.pregai.ui.poses.PoseFragment"
+        android:label="fragment_pose"
+        app:route="pose"
+        tools:layout="@layout/fragment_pose" />
+
+    <fragment
+        android:id="@+id/post_detection"
+        android:name="com.bangkit.pregai.ui.poses.PoseCategoryFragment"
+        android:label="fragment_pose_detection"
+        app:route="category"
+        tools:layout="@layout/fragment_pose_category">
+        <argument
+            android:name="level"
+            android:defaultValue="-1"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/history"
+        android:name="com.bangkit.pregai.ui.history.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/customize_pose"
+        android:name="com.bangkit.pregai.ui.poses.PoseCategoryFragment"
+        android:label="CustomizePoseFragment"
+        tools:layout="@layout/fragment_customize_pose" />
+    <fragment
+        android:id="@+id/my_routines"
+        android:name="com.bangkit.pregai.ui.poses.routines.MyRoutinesFragment"
+        android:label="MyRoutinesFragment"
+        tools:layout="@layout/fragment_my_routines" >
+        <action
+            android:id="@+id/action_my_routines_to_customize_pose"
+            app:destination="@id/customize_pose" />
+    </fragment>
+
+
+</navigation>

@@ -1,3 +1,57 @@
 <resources>
-    <string name="app_name">PregAI</string>
+    <string name="app_name">Preg AI</string>
+    <string name="action_settings">Settings</string>
+    <!-- Fragments labels for navigation -->
+    <string name="auth_login_fragment_label">Sign In</string>
+    <string name="auth_signup_fragment_label">Sign Up</string>
+    <string name="next">Proceed</string>
+    <string name="previous">Back</string>
+
+    <string name="login_to_your_account">Access your account</string>
+    <string name="title_activity_auth">Authentication</string>
+
+    <string name="guest_login_dialog_message">Your routine customizations and progress history are only stored on this device.\n\nDo you want to continue?</string>
+    <string name="guest_login_dialog_title">Cloud sync not available</string>
+    <string name="guest_login_dialog_positive_message">Yes</string>
+    <string name="guest_login_dialog_negative_message">Cancel</string>
+
+    <string name="progress_loading_message">Waiting</string>
+    <string name="tagline">"Bring live to a better future"</string>
+
+    <string name="modal_sheet_activate_message">Your account has been successfully created!</string>
+    <string name="modal_sheet_header">Congratulations!</string>
+    <string name="modal_sheet_button_message">Back to Sign In</string>
+
+    <string name="signup_button_message">Sign up</string>
+
+    <string name="home_dashboard">Courses</string>
+    <string name="home_history">History</string>
+    <string name="home_other_yoga">Features</string>
+    <string name="plan_other_yoga">Planning</string>
+    <string name="history_other_yoga">History</string>
+    <string name="frame_latency_ms">Frame Latency: %s ms</string>
+    <string name="fps_ms">Frames per Second: %s ms</string>
+    <string name="detector_latency_ms">Detector Latency: %s ms</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello, blank fragment</string>
+    <string name="recognizing_default_pose">Recognizing your pose. Please wait...</string>
+    <string name="message_no_post_detected">No recorded history of pose detection or classification found.</string>
+
+    // onboarding
+
+    <string name="title_onboarding_1">Welcome to Onboarding App !</string>
+    <string name="description_onboarding_1">Here is an open-source project which shows sweet &amp; original onboarding ViewPagers that follows Material Design Guidelines</string>
+
+    <string name="title_onboarding_2">Try AirBnB Lottie</string>
+    <string name="description_onboarding_2">We use Lottie Animations on our Intro to make it interactive &amp; pleasant. Did you already tried it ? If no, let\'s start now. It\'s just awesome</string>
+
+    <string name="title_onboarding_3">Code beautiful apps</string>
+    <string name="description_onboarding_3">Our mission is to make useful &amp; subtle apps. We love help people to save time with open-source stuffs, but we also make life easier by creating new things. Good Coding!</string>
+
+    <string name="start_text_advice">By continuing on this application you agree to our Terms of Use and Privacy Policy</string>
+
+    <string name="start">start</string>
+    <string name="skip">Skip</string>
+    <string name="finish">finish</string>
+    <string name="back">back</string>
 </resources>
