@@ -1,3 +1,7 @@
+![Logo Project](https://i.ibb.co/fvwrP1d/Screenshot-2023-12-22-at-14-31-53.png)
+
+
+
 # PregAI: Yoga 🤰🧘‍♀️ 
 
 ## Introduction:
@@ -23,6 +27,19 @@ Welcome to the PregAI: Yoga repository! This Kotlin-based mobile application is 
     - [Paging](#paging)
 3. [Project Structure](#project-structure)
 
+## Images:
+
+![Logo Project](https://i.ibb.co/znRbXwb/Screenshot-2023-12-22-at-14-31-57.png)
+
+![Logo Project](https://i.ibb.co/LNQQ7qb/Screenshot-2023-12-22-at-14-32-03.png)
+
+![Logo Project](https://i.ibb.co/8d5BWxc/Screenshot-2023-12-22-at-14-32-11.png)
+
+![Logo Project](https://i.ibb.co/4dCGVjb/Screenshot-2023-12-22-at-14-32-16.png)
+
+![Logo Project](https://i.ibb.co/MRpsdWQ/Screenshot-2023-12-22-at-14-32-21.png)
+
+
 ## Features:
 
 - Real-time pose detection using camera access on smartphones.
@@ -37,25 +54,17 @@ Welcome to the PregAI: Yoga repository! This Kotlin-based mobile application is 
 - Kotlin Flow
 - Navigation Component
 - Kotlin Coroutines
-- Retrofit
-- Hilt as Dependency Injection
-- OkHttp 3
 
 ### Android Library:
 - JUnit (for unit testing framework)
 - Mockito (for testing, creating, and using mock objects)
-- Retrofit (HTTP client for making network requests REST API)
 - Glide (for efficient loading and caching of images)
 - Dagger/RxJava (for reactive programming)
 - TensorFlow Lite (machine learning library for on-device model inference on Android)
 - Android KTX (for improved code readability and conciseness in Android development)
-
-### Jetpack:
 - CameraX (Android Jetpack library simplifying camera development with backward compatibility)
 - Room (for easier data storage in Android apps)
 - ViewModel/LiveData (for managing UI-related data and lifecycle awareness)
-- Compose (for building UIs using a declarative syntax in Kotlin)
-- Paging (for efficiently loading large data sets in a paginated manner)
 
 ## Project Structure:
 PregAI-Yoga/
@@ -71,6 +80,12 @@ PregAI-Yoga/
 | |-- pose_detection.png
 | |-- guided_poses.png
 |-- README.md
+
+## Architecture:
+
+![Logo Project](https://i.ibb.co/NpGsy1Y/Screenshot-2023-12-22-at-14-32-26.png)
+
+![Logo Project](https://i.ibb.co/9rV1Cbw/Screenshot-2023-12-22-at-14-32-31.png)
 
 
 ## Executive Summary/Abstract:
