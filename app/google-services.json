@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "652483602021",
+    "firebase_url": "https://pregai-52aa0-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "pregai-52aa0",
+    "storage_bucket": "pregai-52aa0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652483602021:android:9eb84dbc2c9c1ed8ebc88c",
+        "android_client_info": {
+          "package_name": "com.bangkit.pregai.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652483602021-op7eef09u6pgevng5tg545t1905nukrh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPhubIFxjCXgUGGtbJi2fKfhiG5w3m-tA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "652483602021-op7eef09u6pgevng5tg545t1905nukrh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
